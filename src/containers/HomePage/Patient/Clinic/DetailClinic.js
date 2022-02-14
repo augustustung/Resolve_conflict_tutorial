@@ -49,35 +49,30 @@ class DetailClinic extends Component {
         }
     }
 
-    async componentDidUpdate(prevProps) {
-
-    }
-
-
     render() {
         const { dataDetailClinic, arrDoctorId } = this.state
         return (
             <div className="detail-specialty-container">
                 <HomeHeader />
-                <div style={{ paddingTop: "50px" }} />
+                <p style={{ paddingTop: "50px" }} />
                 <div className="detail-specialty-body">
                     {
                         arrDoctorId && arrDoctorId.length > 0 ? arrDoctorId.map((item, index) => {
                             return (
                                 <div className="each-doctor" key={index}>
 
-                                    <div className="dt-content-left">
+                                    <span className="dt-content-left">
                                         <ProfileDoctor
                                             doctorId={item}
                                             isShowDoctorDescription={true}
                                             isShowLink={true}
                                             isShowPrice={false}
-                                        // dataTime={dataSchedule}
                                         />
-                                    </div>
+                                    </span>
 
                                     <div className="dt-content-right">
                                         <div className="doctor-schedule">
+                                            <span>123123123123123123</span>
                                             <DoctorSchedule doctorIdFromParent={item} />
                                         </div>
 
@@ -90,7 +85,7 @@ class DetailClinic extends Component {
                             )
                         }) : (
                             <div className="ds-none">
-                                <FormattedMessage id="manage-doctor.none" />
+                                khong co bac si nao
                             </div>
                         )
                     }
@@ -120,10 +115,4 @@ const mapStateToProps = state => {
     };
 };
 
-const mapDispatchToProps = dispatch => {
-    return {
-
-    };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(DetailClinic);
+export default connect(mapStateToProps, null)(DetailClinic);
