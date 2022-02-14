@@ -1,0 +1,152 @@
+{
+    "homeheader": {
+        "specialty": "Chuyên khoa",
+        "search-doctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Phòng khám",
+        "doctor": "Bác sĩ",
+        "select-doctor": "Chọn bác sĩ giỏi",
+        "fee": "Hệ thống bác sĩ",
+        "check-health": "Trang này dành riêng cho bác sĩ",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào, ",
+        "total-infections": "Tổng ca nhiễm",
+        "recovered": "Số ca khỏi",
+        "deaths": "Số ca tử vong",
+        "landing": "Chào mừng đến với trang quản trị viên"
+    },
+    "banner": {
+        "title1": "DAILY CARE",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "child1": "Khám chuyên khoa",
+        "child2": "Khám từ xa",
+        "child3": "Khám tổng quát",
+        "child4": "Xét nghiệm y học",
+        "child5": "Sức khỏe tinh thần",
+        "child6": "Khám nha khoa",
+        "specialized-examination": "Chuyên khoa phổ biến",
+        "outstanding-medical-facility": "Cơ sở y tế nổi bật",
+        "outstanding-doctors": "Bác sĩ nổi bật tuần qua",
+        "covid": "Thông tin COVID-19",
+        "watch-more": "Xem thêm",
+        "prevention": "Phòng chống COVID-19"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "Trang chủ",
+            "crud-redux": "Quản lý người dùng",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý lịch khám bệnh",
+            "manage-patient": "Quản lý lịch bênh nhân"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Địa chỉ email",
+        "password": "Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "image": "Ảnh đại diện",
+        "save": "Lưu người dùng",
+        "upload": "tải ảnh lên",
+        "edit": "Lưu thay đổi",
+        "reason": "Lý do khám",
+        "birthday": "Ngày sinh"
+    },
+    "manage-doctor": {
+        "add-a-doctor": "Thêm thông tin bác sĩ",
+        "choose-a-doctor": "Chọn bác sĩ",
+        "intro-info": "Thông tin giới thiệu",
+        "edit": "Sửa thông tin",
+        "save": "Lưu thông tin",
+        "choose-a-price": "Chọn giá",
+        "payment": "Phương thức thanh toán",
+        "choose-a-province": "Chọn tỉnh thành",
+        "choose-a-clinic": "Tìm phòng khám",
+        "clinic-name": "Tên phòng khám",
+        "clinic-address": "Địa chỉ phòng khám",
+        "note": "Ghi chú",
+        "select-specialty": "Chọn chuyên khoa",
+        "select-country": "Chọn quốc gia",
+        "select-clinic": "Chọn phòng khám",
+        "none": "Xin lỗi! Tỉnh thành này hiện không có bác sĩ nào."
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh",
+        "select-doctor": "Chọn bác sĩ",
+        "select-day": "Chọn ngày",
+        "button": "Lưu thông tin"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch khám",
+            "none-schedule": "Không có lịch hẹn trong thời gian này! Vui lòng chọn thời gian khác."
+        },
+        "fee": "Chọn và đặt lịch ( miễn phí )"
+    },
+    "extra-doctor-info": {
+        "clinic-address": "Địa chỉ phòng khám",
+        "view-detail": "Xem chi tiết",
+        "price": "Giá khám",
+        "hide-detail": "Ẩn bớt",
+        "payment": "Phương thức thanh toán"
+    },
+    "modal-booking": {
+        "booking": "Thông tin đặt lịch khám bệnh",
+        "submit": "Đặt lịch",
+        "cancel": "Hủy",
+        "free-booking": "Miễn phí đặt lịch"
+    },
+    "verify-email": {
+        "wait": "Quý khách vui lòng đợi trong giây lát, hệ thông đang xử lý!",
+        "succeed": "Thành công",
+        "failed": "Thất bại",
+        "wrong": "Có vẻ như là lịch hẹn không tồn tại hoặc hệ thống đã gặp trục trặc.",
+        "hotline": "Nếu quý khách cần hỗ trợ vui lòng liên hệ hotline: 0913115560",
+        "email": "Hoặc gửi thư điện tử qua: huytung139@gmail.com",
+        "thanks": "Cảm ơn đã lựa chọn Daisy Care!",
+        "regard": "Chúc quý khách một ngày vui vẻ."
+    },
+    "manage-specialty": {
+        "specialty-img": "Ảnh",
+        "save": "Lưu thông tin ",
+        "address": "Địa chỉ"
+    },
+    "manage-patient": {
+        "manage": "Quản lý bênh nhân khám bệnh",
+        "select-date": "Chọn ngày",
+        "fullname": "Họ và tên",
+        "gender": "Giới tính",
+        "date": "Ngày sinh",
+        "actions": "Hành động",
+        "time": "Thời gian",
+        "confirm": "Xác nhận",
+        "bill": "Gửi hóa đơn"
+    },
+    "feature": {
+        "statistical": "Thống kê",
+        "downloadSampleFile": "Tải xuống file mẫu",
+        "upload": "Tải lên",
+        "export": "Xuất file",
+        "selectFile": "Chọn tệp",
+        "wrongfile": "Vui lòng chọn tệp .xlsx",
+        "import": "Nhập dữ liệu",
+        "importSuccess": "Nhập dữ liệu thành công",
+        "importFailed": "Nhập dữ liệu thất bại. Vui lòng thử lại sau"
+    }
+}

@@ -1,0 +1,90 @@
+.covid-section-container {
+    padding: 0 55px;
+    width  : 100%;
+
+    .c-s-titile {
+        padding: 20px 0;
+
+        span {
+            font-weight: 600;
+            font-size  : 35px;
+        }
+
+        div {
+            padding-left: 10px;
+        }
+
+
+    }
+
+    .c-s-info {
+        margin         : 20px 10px;
+        display        : flex;
+        justify-content: space-evenly;
+
+        .c-s-content-have {
+            width        : 90%;
+            margin-right : 3.3%;
+            box-shadow   : 0 3px 3px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            border-left  : 10px solid red;
+
+            .content-title {
+                padding-bottom: 5px;
+                padding-top   : 20px;
+                padding-left  : 25px;
+            }
+
+            .content-subtitle {
+                padding-left  : 25px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .c-s-content-pass {
+            width        : 90%;
+            margin-right : 3.3%;
+            box-shadow   : 0 3px 3px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            border-left  : 10px solid green;
+
+            .content-title {
+                padding-bottom: 5px;
+                padding-top   : 20px;
+                padding-left  : 25px;
+            }
+
+            .content-subtitle {
+                padding-left  : 25px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .c-s-content-die {
+            width        : 90%;
+            margin-right : 3.3%;
+            box-shadow   : 0 3px 3px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            border-left  : 10px solid black;
+
+            .content-title {
+                padding-bottom: 5px;
+                padding-top   : 20px;
+                padding-left  : 25px;
+            }
+
+            .content-subtitle {
+                padding-left  : 25px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .content-title {
+            font-size: 15px;
+        }
+
+        .content-subtitle {
+            font-weight: bold;
+        }
+    }
+}

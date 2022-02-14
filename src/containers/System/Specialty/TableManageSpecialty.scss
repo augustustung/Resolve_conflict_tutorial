@@ -1,0 +1,96 @@
+.bg {
+    height          : 100vh;
+    background-color: #ddd;
+}
+
+.modal-user-container {
+    .modal-content {
+        .modal-header {
+            button {
+                background-color: transparent !important;
+                color           : #fff;
+                border          : none;
+                font-size       : 27px;
+            }
+        }
+    }
+
+    .modal-user-body {
+        display  : flex;
+        flex-wrap: wrap;
+        gap      : 10px;
+
+        .input-container {
+            display       : flex;
+            flex-direction: column;
+            width         : 49%;
+
+            &.max-width-input {
+                width: 100%;
+            }
+
+            input {
+                border-radius: 3px;
+                height       : 30px;
+                padding      : 0 10px;
+                outline      : none;
+                border       : 1px solid #ddd;
+            }
+        }
+    }
+}
+
+.btn-edit {
+    width     : 50px;
+    border    : none;
+    outline   : none;
+    background: transparent;
+    color     : orange;
+
+    &:hover {
+        background-color: transparent !important;
+        color           : orange !important;
+    }
+}
+
+.btn-delete {
+    width     : 50px;
+    border    : none;
+    outline   : none;
+    background: transparent;
+    color     : red;
+
+    &:hover {
+        background-color: transparent !important;
+        color           : red !important;
+    }
+}
+
+#table-manage-user {
+    font-family    : Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width          : 100%;
+}
+
+#table-manage-user td,
+#table-manage-user th {
+    border       : 1px solid #ddd;
+    padding      : 8px;
+    text-overflow: hidden;
+}
+
+#table-manage-user tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table-manage-user tr:hover {
+    background-color: #ddd;
+}
+
+#table-manage-user th {
+    padding-top     : 12px;
+    padding-bottom  : 12px;
+    text-align      : left;
+    background-color: #04AA6D;
+    color           : white;
+}

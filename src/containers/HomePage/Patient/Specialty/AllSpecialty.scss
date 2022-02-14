@@ -1,0 +1,38 @@
+.all-specialty-container {
+	margin: 0 40px !important;
+
+	.all-specialty-content {
+		margin     : 25px 0 !important;
+		width      : 100%;
+		padding-top: 10px;
+		cursor     : pointer;
+		display    : flex;
+		box-shadow : 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 17px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	.a-s-image {
+		background-repeat  : no-repeat;
+		background-position: center;
+		border             : none;
+		border-radius      : 0%;
+		background-size    : cover;
+		height             : 80px;
+		padding            : 10px 0;
+		width              : 140px;
+		margin             : 10px 20px;
+	}
+
+	.content-right {
+		width         : 80%;
+		flex-direction: column;
+		padding-left  : 10px;
+		display       : flex;
+
+		.a-s-title {
+			font-weight   : 500;
+			font-size     : 15px;
+			padding-top   : 20px !important;
+			padding-bottom: 5px;
+		}
+	}
+}

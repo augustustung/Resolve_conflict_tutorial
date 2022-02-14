@@ -1,0 +1,152 @@
+{
+    "homeheader": {
+        "specialty": "Medical specialty",
+        "search-doctor": "Find a doctor by specialty",
+        "health-facility": "Health facility",
+        "select-room": "Choose hospital clinic",
+        "doctor": "Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee": "Doctor's page",
+        "check-health": "Doctor's private page",
+        "support": "Support",
+        "welcome": "Welcome,",
+        "total-infections": "Total infections",
+        "recovered": "Number of recovered cases",
+        "deaths": "Number of deaths",
+        "landing": "Welcome to admin site"
+    },
+    "banner": {
+        "title1": "DAILY CARE",
+        "title2": "COMPHREHENSIVE HEALTH CARE",
+        "child1": "Specialized examination",
+        "child2": "Remote examination",
+        "child3": "General examnitation",
+        "child4": "Medical test",
+        "child5": "Mental health",
+        "child6": "Dental examination",
+        "specialized-examination": "Specialized examination",
+        "outstanding-medical-facility": "Outstanding medical facility",
+        "outstanding-doctors": "Outstanding doctors",
+        "covid": "Section COVID-19",
+        "watch-more": "Find more",
+        "prevention": "Prevent the COVID-19"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Users system",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admin",
+            "crud": "Home page",
+            "crud-redux": "Manage User",
+            "clinic": "Clinics",
+            "manage-clinic": "Manage clinics",
+            "specialty": "Specialties",
+            "manage-specialty": "Manage specialties",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage handbook"
+        },
+        "doctor": {
+            "manage-schedule": " Manage schedule",
+            "manage-patient": " Manage patient's schedule"
+        }
+    },
+    "manage-user": {
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Avatar",
+        "save": "Save",
+        "upload": "Upload image",
+        "edit": "Save change",
+        "reason": "Reason for booking",
+        "birthday": "Birthday"
+    },
+    "manage-doctor": {
+        "add-a-doctor": "Add more info about doctor",
+        "choose-a-doctor": "Choose a doctor",
+        "intro-info": "Description",
+        "edit": "Edit information",
+        "save": "Save information",
+        "choose-a-price": "Choose price",
+        "choose-a-clinic": "Find a clinic",
+        "payment": "Payment",
+        "choose-a-province": "Choose a province",
+        "clinic-name": "Clinic's name",
+        "clinic-address": "Clinic's address",
+        "note": "Note",
+        "select-specialty": "Select a specialty",
+        "select-country": "Select a country",
+        "select-clinic": "Select a clinic",
+        "none": "Sorry! This province, for now doesn't have any doctor."
+    },
+    "manage-schedule": {
+        "title": "Manage doctor's plan",
+        "select-doctor": "Select a doctor",
+        "select-day": "Select day",
+        "button": "Save schedule"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Schedule",
+            "none-schedule": "Doesn't have schedule in this time! Please choose another time."
+        },
+        "fee": "Choose and booking schedule ( free )"
+    },
+    "extra-doctor-info": {
+        "clinic-address": "Clinic's address",
+        "view-detail": "View detail",
+        "price": "Price",
+        "hide-detail": "Hide",
+        "payment": "Payment"
+    },
+    "modal-booking": {
+        "booking": "Booking schedule",
+        "submit": "Confirm",
+        "cancel": "Cancel",
+        "free-booking": "Free booking"
+    },
+    "verify-email": {
+        "wait": "Please wait for a moment, the system is verifying!",
+        "succeed": "Successfully",
+        "failed": "Failed",
+        "wrong": "It may be schedule doesn't exist or error from the server.",
+        "hotline": "If you have any questions, please call hotline: 0913115560",
+        "email": "Or you can send email: huytung139@gmail.com",
+        "thanks": "Thanks for choosing Daisy Care!",
+        "regard": "Have a good day."
+    },
+    "manage-specialty": {
+        "specialty-img": "Image",
+        "save": "Save data",
+        "address": "Address"
+    },
+    "manage-patient": {
+        "manage": "Manage patients",
+        "select-date": "Select a date",
+        "fullname": "Full name",
+        "gender": "Gender",
+        "date": "Birthday",
+        "actions": "Actions",
+        "time": "Time",
+        "confirm": "Confirm",
+        "bill": "Send the bill"
+    },
+    "feature": {
+        "statistical": "Statistical",
+        "downloadSampleFile": "Download sample file",
+        "upload": "Upload a file",
+        "export": "Export file",
+        "selectFile": "Select a file",
+        "wrongfile": "Please choose .xlsx file",
+        "import": "Import data",
+        "importSuccess": "Import data successfully",
+        "importFailed": "Import data failed. Please try again"
+    }
+}

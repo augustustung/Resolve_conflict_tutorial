@@ -1,0 +1,295 @@
+.home-header-container {
+    height          : 70px;
+    width           : 100%;
+    padding         : 0 40px;
+    position        : fixed;
+    background-color: #fff;
+    top             : 0;
+    z-index         : 100;
+    box-shadow      : 0 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom   : 60px !important;
+
+    .home-header-content {
+        width  : 100%;
+        height : 100%;
+        display: flex;
+
+        .left-content {
+            width      : 20%;
+            display    : flex;
+            align-items: center;
+
+            .btnIcon {
+                font-size: 25px;
+                color    : #23887c;
+                cursor   : pointer;
+            }
+
+            .header-logo {
+                transform  : scale(0.5, 0.5);
+                margin-left: -50px;
+                cursor     : pointer;
+                height     : auto;
+                max-height: 120px !important;
+                width      : 100%;
+
+            }
+        }
+
+        .center-content {
+            width          : 55%;
+            cursor         : pointer;
+            display        : flex;
+            justify-content: space-evenly;
+            align-items    : center;
+
+            .child-content {
+                .subTitle {
+                    font-size  : 12px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+
+        .right-content {
+            width          : 25%;
+            display        : flex;
+            justify-content: flex-end;
+            align-items    : center;
+
+            .support {
+                cursor       : pointer;
+                display      : flex;
+                align-items  : center;
+                padding-right: 30px;
+
+                .action-button {
+                    padding-left: 20px;
+
+                    &:hover {
+                        color: #23887c;
+                    }
+                }
+            }
+
+
+
+            .language-vi {
+                cursor : pointer;
+                margin : 0 10px;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: orange
+                    }
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+            .language-en {
+                cursor : pointer;
+                margin : 0 10px;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: blue
+                    }
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    background         : url('../../assets/images/bookingcare-cover-4.jpg');
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+    height             : 485px;
+
+    .bar {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+
+
+        .title1 {
+            text-align    : center;
+            font-size     : 30px;
+            color         : #fff;
+            padding-bottom: 5px;
+            padding-top   : 45px;
+            text-shadow   : 1px 1px 1px #333;
+        }
+
+        .title2 {
+            text-align    : center;
+            font-size     : 30px;
+            color         : #fff;
+            padding-bottom: 15px;
+            text-shadow   : 1px 1px 1px #333;
+            font-weight   : bold;
+            margin-bottom : 15px;
+        }
+    }
+
+    .search {
+        align-items     : center;
+        display         : flex;
+        margin          : 0 auto;
+        width           : fit-content;
+        padding         : 10px;
+        border-radius   : 25px;
+        background-color: #f7d800;
+
+        i {
+            margin: 0 5px;
+        }
+
+        input {
+            height    : 30px;
+            width     : 360px;
+            background: transparent;
+            border    : none;
+            outline   : none;
+        }
+    }
+
+    .others-media {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        margin-top     : 38px;
+
+        .ios-app {
+            background     : url('../../assets/images/app-store-badge-black.svg') center center no-repeat;
+            width          : 110px;
+            height         : 32px;
+            cursor         : pointer;
+            background-size: cover;
+            margin-right   : 25px;
+        }
+
+        .android-app {
+            background     : url('../../assets/images/google-play-badge.svg') center center no-repeat;
+            width          : 110px;
+            height         : 32px;
+            cursor         : pointer;
+            background-size: cover;
+        }
+    }
+
+    .options {
+        cursor          : pointer;
+        margin-top      : 60px;
+        text-align      : center;
+        display         : flex;
+        gap             : 25px;
+        justify-content : center;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+        padding-top     : 30px;
+        padding-bottom  : 20px;
+
+        .options-child {
+            width      : 125px;
+            align-items: center;
+
+            &:hover {
+                color: #6eb3ab;
+            }
+
+            .icon-child {
+
+                .hospital {
+                    background-color: #fff;
+                    width           : 50px;
+                    height          : 50px;
+                    padding         : 10px;
+                    box-shadow      : 0px 1px 2px #333;
+                    margin          : 2px auto;
+                    background-size : 32px;
+                    border-radius   : 50%;
+                    color           : #23887c;
+                }
+
+                .ktx {
+                    color           : #23887c;
+                    background-color: #fff;
+                    width           : 50px;
+                    height          : 50px;
+                    padding         : 10px;
+                    box-shadow      : 0px 1px 2px #333;
+                    margin          : 2px auto;
+                    background-size : 32px;
+                    border-radius   : 50%;
+                }
+
+                .ktq {
+                    color           : #23887c;
+                    background-color: #fff;
+                    width           : 50px;
+                    height          : 50px;
+                    padding         : 10px;
+                    box-shadow      : 0px 1px 2px #333;
+                    margin          : 2px auto;
+                    background-size : 32px;
+                    border-radius   : 50%;
+                }
+
+                .xnyh {
+                    color           : #23887c;
+                    background-color: #fff;
+                    width           : 50px;
+                    height          : 50px;
+                    padding         : 10px;
+                    box-shadow      : 0px 1px 2px #333;
+                    margin          : 2px auto;
+                    background-size : 32px;
+                    border-radius   : 50%;
+                }
+
+                .sktt {
+                    color           : #23887c;
+                    background-color: #fff;
+                    width           : 50px;
+                    height          : 50px;
+                    padding         : 10px;
+                    box-shadow      : 0px 1px 2px #333;
+                    margin          : 2px auto;
+                    background-size : 32px;
+                    border-radius   : 50%;
+                }
+
+                .knk {
+                    color           : #23887c;
+                    background-color: #fff;
+                    width           : 50px;
+                    height          : 50px;
+                    padding         : 10px;
+                    box-shadow      : 0px 1px 2px #333;
+                    margin          : 2px auto;
+                    background-size : 32px;
+                    border-radius   : 50%;
+                }
+            }
+
+            .text-child {
+                font-size  : 17px;
+                font-weight: 500;
+            }
+        }
+
+    }
+}

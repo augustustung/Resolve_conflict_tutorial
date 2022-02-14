@@ -1,0 +1,51 @@
+.login-bg {
+    flex-direction: column;
+
+    .title {
+        margin-top   : -60px;
+        margin-bottom: 60px;
+        font-size    : xx-large;
+        color        : orange;
+    }
+
+    .register-form {
+        margin       : 0 100px;
+        border-radius: 5px;
+
+        .input-password {
+            display: flex;
+        }
+
+        .icon-password {
+            padding-top : 5px;
+            padding-left: 10px;
+        }
+
+        .btn-register {
+            margin-top   : 50px;
+            text-align   : center;
+            padding      : 5px 10px;
+            border-radius: 3px;
+
+            button {
+                color: orange;
+
+                &:hover {
+                    opacity: 0.8;
+                    ;
+                }
+            }
+        }
+
+
+        .form-group {
+            input {
+
+                &:hover,
+                &:focus {
+                    border: 2px solid orange;
+                }
+            }
+        }
+    }
+}

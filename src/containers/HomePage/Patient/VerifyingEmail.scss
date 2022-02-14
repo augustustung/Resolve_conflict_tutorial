@@ -1,0 +1,50 @@
+.verify-container {
+    border: 1px solid #fff;
+    height: 70vh;
+    margin: 60px 60px;
+
+    .container-loader {
+        margin         : 60px 0;
+        display        : flex;
+        justify-content: center;
+
+        span {
+            color: #23887c;
+        }
+
+        .loader {
+            border       : 5px solid #f3f3f3;
+            /* Light grey */
+            border-top   : 5px solid #23887c;
+            /* Blue */
+            border-radius: 50%;
+            width        : 60px;
+            height       : 60px;
+            animation    : spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .success {
+        text-align   : center;
+        margin-bottom: 80px;
+    }
+
+    .fail {
+        text-align   : center;
+        margin-bottom: 80px;
+    }
+
+    .more-info {
+        text-align: center;
+    }
+}
