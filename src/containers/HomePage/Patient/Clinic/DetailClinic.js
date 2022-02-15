@@ -59,7 +59,7 @@ class DetailClinic extends Component {
         return (
             <div className="detail-specialty-container">
                 <HomeHeader />
-                <div style={{ paddingTop: "50px" }} />
+                <span style={{ paddingTop: "50px" }} />
                 <div className="detail-specialty-body">
                     {
                         arrDoctorId && arrDoctorId.length > 0 ? arrDoctorId.map((item, index) => {
@@ -91,6 +91,7 @@ class DetailClinic extends Component {
                         }) : (
                             <div className="ds-none">
                                 <FormattedMessage id="manage-doctor.none" />
+                                test add new
                             </div>
                         )
                     }
